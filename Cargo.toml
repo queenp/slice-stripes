@@ -1,0 +1,6 @@
+[package]
+name = "slice_stripes"
+version = "0.1.0"
+authors = ["Phoebe Queen"]
+
+[dependencies]
