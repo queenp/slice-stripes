@@ -13,6 +13,6 @@ let x = [1,2,3,
          4,5,6,
          7,8,9];
 
-println!("{:?}", x.stripes(3).next().unwrap().collect());
+println!("{:?}", x.stripes(3).next().unwrap().collect::<Vec<u8>>());
 ```
 ought to output "[1,4,7]"
