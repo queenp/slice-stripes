@@ -15,4 +15,4 @@ let x = [1,2,3,
 
 println!("{:?}", x.stripes(3).next().unwrap().collect::<Vec<u8>>());
 ```
-ought to output "[1,4,7]"
+ought to output `[1,4,7]`
