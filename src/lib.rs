@@ -62,12 +62,6 @@ impl<'a, T: 'a> Striped<'a, T> for [T] {
     }
 }
 
-/// An iterator over mutable stripes of a slice/vec
-pub struct StripesMut<'a, T:'a> {
-    _s_sz: usize,
-    _v: &'a mut [T],
-}
-
 /// An iterator with a view into a stripe of a slice/vec, returning every n-th value.
 #[derive(Copy,Clone,Debug,PartialEq)]
 pub struct Stripe<'a, T:'a> {
